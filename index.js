@@ -23,11 +23,11 @@ for (let i = 0; i < numbers.length; i++) {
     }
 }
 // Q: What is the time complexity of of this solution?
-// ANSWER: O(1)
+// ANSWER: O(n)
 
 
 // Q: Could you come up with a solution that has a better time complexity? If so, what is that time complexity?
-// ANSWER: I'd use the slice method to assign the number at index 4 to the new variable. This would have time complexity O(1)
+// ANSWER: I'd use answer = numbers[3]. This would have time complexity O(1)
 
 
 // 2) -------------------------------------------------------
@@ -47,7 +47,7 @@ function printB(number) {
   }
 }
 // Q: What is the time complexity of the function?
-// ANSWER: O(n)
+// ANSWER: O(1)
 
 
 // 4) -------------------------------------------------------
@@ -120,8 +120,7 @@ function printFirstTwoNames(array) {
 }
 
 // Q: What is the time complexity of the function? Could we write this function differently to accomplish the goal of the function in a faster time complexity?
-// ANSWER: O(1)
-
+// ANSWER: O(1). Can't be any faster because the time is already constant
 
 // Advanced Challenges
 // Solve the following challenge. Once complete, determine the time complexity of your solution. Consider if there are ways to solve the challenge with a better time complexity.
